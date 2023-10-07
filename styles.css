@@ -1,0 +1,219 @@
+* {
+    margin: 0%;
+    border: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    justify-content: center;
+}
+
+
+body {
+    background-color: rgb(233, 191, 226);
+}
+
+h1 {
+text-align: center;
+color: rgb(16, 163, 200);
+font-size: 60px;
+}
+
+.leftPara {
+    color: rgb(55, 3, 100);
+    text-align: center;
+    font-size: 20px;
+}
+
+aside {
+    background-color: blanchedalmond;
+    border: 60px whitesmoke;
+    float: left;
+    width: 20%;
+    padding: 20px 50px 20px 5%;
+}
+
+/*Blank.html*/
+.newpg {
+    background-color: white;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.newpgtitle {
+    color: rgb(198, 169, 200);
+    background-color: #333;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    align-content: center;
+}
+
+
+/* This goes to commented out dropdown on blank.html file:
+.dropdown-menu .dropdown {
+    font-size: 20px;
+    background-color: antiquewhite;
+    display: flex;
+}*/
+
+/*.dropdown-menu-content .dropdown {
+    font-size: 10%;
+    display: block;
+    position: absolute;
+    min-width: 150px;
+    box-shadow: 0px 8px 16px 0px;
+}
+
+.dropdown-menu a:hover .dropdown-menu-content .dropdown {
+    display: block;
+}
+
+.dropdown-menu-content .label .dropdown{
+    background-color: antiquewhite;
+    display: none;
+    min-width: 15px;
+    z-index: -1;
+
+}
+*/
+
+/*image Blank page styling*/
+.newpgpara {
+    text-decoration:none;
+    transition-duration: 0.6s;
+    transform: translate(75px, 20px);
+    }
+
+#im1 {
+  background-image:url(images/sbaImage1.jpg);
+  background-color: none;
+  opacity: 0.25;
+  object-fit: cover;
+  position: fixed;
+  top: 0%;
+  z-index: -1;
+}
+
+.imagecontainer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    object-fit: cover;
+    align-content: baseline;
+    opacity: 0;
+    animation-name: fadeIn;
+    animation-duration: 6s;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+
+    
+.dropdown .dropdown-item {
+    display: flex;
+    color:#333;
+    background-color: rgb(198, 169, 200);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700; 
+}
+
+ #itemselect{
+    
+    float: right;
+    margin-right: 5%;
+    background-color: rgb(198, 169, 200);
+    color: #333;
+    font-weight: 700;
+    border: 2px solid #333;
+    
+}
+
+/* form styling*/
+.formbody{
+    background-color: rgb(198, 169, 200);
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.line{
+    display: flex;
+color: rgb(16, 163, 200);
+}
+
+
+/* 3rd Page with Forms and table styling*/
+.formMessage {
+    padding: 40px;
+    color: rgb(16, 163, 200);
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#contactsubmit {
+display: flex;
+float: inline-start;
+margin-left: 40px;
+flex-wrap: nowrap;
+}
+
+.submit {
+    display: flex;
+    float:inline-start;
+    margin-left: 0%;
+}
+
+#messagesubmit {
+    display: flex;
+}
+
+#email,  #name {
+    display: flex;
+}
+
+
+/*table styling also need pagniation to retrive the overflow*/
+.tablequestion {
+    display: flex;
+    float: left;
+    font-size: 20px;
+}
+
+.table {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.tableselection {
+    display: flex;
+}
+
+.tabledata {
+    display: flex;
+    
+}   
+
+
+
+/*Gif Style*/
+.gif {
+display: flex;
+margin-inline-start: 10px;
+}
+
+#messagegif {
+    display: flex;
+    float: inline-end;
+    margin-top: 22%;
+    margin-right:20%;
+    
+}
